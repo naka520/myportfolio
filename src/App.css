@@ -37,6 +37,14 @@
   }
 }
 
+.profile {
+  display: flex;
+}
+
+.prof {
+  margin-top: 20px;
+}
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
