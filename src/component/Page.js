@@ -10,10 +10,16 @@ function Page() {
       <Header />
       <div className="prof">
         <ul className="profile">
-          <li>
+          <li className="border-4">
             <img src={Pipi}></img>
           </li>
-          <li></li>
+          <li className="border-4 h-4/5 w-4/5">
+            <Stack>
+              <ul className="mt-2  text-left text-xl">
+                <li>名前 : 中屋敷楓</li>
+              </ul>
+            </Stack>
+          </li>
         </ul>
       </div>
     </div>
