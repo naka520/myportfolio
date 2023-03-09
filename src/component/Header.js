@@ -7,7 +7,12 @@ function Header() {
     <div>
       <AppBar position="static" color="default">
         <Toolbar variant="dense" className="border-zinc-700">
-          <Typography variant="h6" color="inherit" component="div">
+          <Typography
+            variant="h6"
+            color="inherit"
+            component="div"
+            className="italic"
+          >
             My Portfolio
           </Typography>
         </Toolbar>
