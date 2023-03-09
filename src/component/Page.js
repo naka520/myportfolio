@@ -7,6 +7,7 @@ import Pipi from "./pipi.png";
 import Okame from "./okamediet.png";
 import Supportfolio from "./Supportfolio.png";
 import Usako from "./usako.png";
+import AlienBusters from "./AlienBusters.png";
 
 function Page() {
   return (
@@ -159,7 +160,7 @@ function Page() {
                   </li>
                   <li className="mt-1 ml-2">
                     <p>
-                      ２０２３年１２月のハックツハッカソン「メガロカップ」にて作成しました。
+                      ２０２２年１２月のハックツハッカソン「メガロカップ」にて作成しました。
                     </p>
                     <p>
                       うさこちゃんにリプライをすると、うさこちゃんがあなたのツイートから
@@ -188,6 +189,54 @@ function Page() {
                   </li>
                 </ul>
               </Stack>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div className="mt-8">
+        <div className="prof">
+          <ul className="profile drop-shadow-md">
+            <li className="border-2 h-4/5 w-4/5 rounded-tl-lg rounded-tr-lg rounded-br-lg rounded-bl-lg bg-zinc-100">
+              <Stack>
+                <ul className="mt-2  text-left ">
+                  <li className="mt-1 ml-2 text-xl">
+                    <p className="italic">ProductName : AlienBusters</p>
+                  </li>
+                  <li className="mt-1 ml-2">
+                    <p>
+                      ２０２２年１１月の技育キャンプ主催「初めてのハッカソン」にて作成しました。
+                    </p>
+                    <p>「おばけキャッチ」をオマージュしたゲームです。</p>
+                    <p>私はイラストとCSSの担当をしました。</p>
+                    <p>
+                      メインページのエイリアンのCSSアニメーションは、フリーで公開されているサンプルを利用しましたが、
+                    </p>
+                    <p>
+                      まだフロントエンド超・初心者だったため、色や配置の微調整に苦戦しました・・・
+                    </p>
+                    <p>詳しくは以下Googleslideにて！</p>
+                  </li>
+                  <li className="mt-4 ml-2 text-xl">
+                    <p className="italic">
+                      GitHub ▶
+                      <a href="https://github.com/claustra01/AlienBusters">
+                        Click Me!
+                      </a>
+                    </p>
+                  </li>
+                  <li className="mt-1 ml-2 text-xl">
+                    <p className="italic">
+                      GoogleSlide▶
+                      <a href="https://docs.google.com/presentation/d/1OaU14UgOByKkvYUsq9xfbSiVlixu1f7mz4vEncURUeU/edit#slide=id.g19a5d8ab83f_5_950">
+                        Click Me!
+                      </a>
+                    </p>
+                  </li>
+                </ul>
+              </Stack>
+            </li>
+            <li className="border-2 rounded-tl-lg rounded-tr-lg rounded-br-lg rounded-bl-lg">
+              <img src={AlienBusters}></img>
             </li>
           </ul>
         </div>
