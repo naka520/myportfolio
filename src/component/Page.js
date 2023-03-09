@@ -8,6 +8,7 @@ import Okame from "./okamediet.png";
 import Supportfolio from "./Supportfolio.png";
 import Usako from "./usako.png";
 import AlienBusters from "./AlienBusters.png";
+import enikki from "./enikki.png";
 
 function Page() {
   return (
@@ -27,6 +28,14 @@ function Page() {
                 <li className="mt-1 ml-2">
                   <p className="italic">
                     University : Kyushu Institute of Technology
+                  </p>
+                </li>
+                <li className="mt-1 ml-2">
+                  <p className="italic">
+                    SelfIntoroduce（note） ▶
+                    <a href="https://note.com/preview/nf358da162a6e?prev_access_key=4f649ed3ba646e564c9f0a26ef5c68fd">
+                      Click Me!
+                    </a>
                   </p>
                 </li>
                 <li className="mt-1 ml-2">
@@ -156,7 +165,7 @@ function Page() {
               <Stack>
                 <ul className="mt-2  text-left ">
                   <li className="mt-1 ml-2 text-xl">
-                    <p className="italic">ProductName : Usako-chan</p>
+                    <p className="italic">ProductName : うさこちゃん</p>
                   </li>
                   <li className="mt-1 ml-2">
                     <p>
@@ -237,6 +246,50 @@ function Page() {
             </li>
             <li className="border-2 rounded-tl-lg rounded-tr-lg rounded-br-lg rounded-bl-lg">
               <img src={AlienBusters}></img>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div className="mt-8">
+        <div className="prof">
+          <ul className="profile drop-shadow-md">
+            <li className="border-2 rounded-tl-lg rounded-tr-lg rounded-br-lg rounded-bl-lg">
+              <img src={enikki}></img>
+            </li>
+            <li className="border-2 h-4/5 w-4/5 rounded-tl-lg rounded-tr-lg rounded-br-lg rounded-bl-lg bg-zinc-100">
+              <Stack>
+                <ul className="mt-2  text-left ">
+                  <li className="mt-1 ml-2 text-xl">
+                    <p className="italic">ProductName : 自動絵日記</p>
+                  </li>
+                  <li className="mt-1 ml-2">
+                    <p>
+                      ２０２２年１１月の「SAGA Azure Hackathon
+                      vol.2」にて作成しました。
+                    </p>
+                    <p>私が初めて参加したハッカソンになります。</p>
+                    <p>AIが作成した絵に対して１行日記をつけるアプリです。</p>
+                    <p>私はCSSの担当をしました。</p>
+                    <p>詳しくは以下Topazにて！</p>
+                  </li>
+                  <li className="mt-4 ml-2 text-xl">
+                    <p className="italic">
+                      GitHub ▶
+                      <a href="https://github.com/yamato0211/azure-tutorial">
+                        Click Me!
+                      </a>
+                    </p>
+                  </li>
+                  <li className="mt-1 ml-2 text-xl">
+                    <p className="italic">
+                      Topaz▶
+                      <a href="https://topaz.dev/projects/6e45ce54ea6dc2776396">
+                        Click Me!
+                      </a>
+                    </p>
+                  </li>
+                </ul>
+              </Stack>
             </li>
           </ul>
         </div>
