@@ -10,11 +10,11 @@ function Page() {
     <div>
       <Header />
       <div className="prof">
-        <ul className="profile">
+        <ul className="profile drop-shadow-md">
           <li className="border-2 rounded-tl-lg rounded-tr-lg rounded-br-lg rounded-bl-lg">
             <img src={Pipi}></img>
           </li>
-          <li className="border-2 h-4/5 w-4/5 rounded-tl-lg rounded-tr-lg rounded-br-lg rounded-bl-lg">
+          <li className="border-2 h-4/5 w-4/5 rounded-tl-lg rounded-tr-lg rounded-br-lg rounded-bl-lg bg-zinc-100">
             <Stack>
               <ul className="mt-2  text-left text-xl">
                 <li className="mt-1 ml-2">
@@ -48,6 +48,11 @@ function Page() {
             </Stack>
           </li>
         </ul>
+      </div>
+      <div>
+        <h1 className="mt-4 bg-stone-100 text-2xl italic rounded-tl-lg rounded-tr-lg rounded-br-lg rounded-bl-lg drop-shadow-md">
+          My product
+        </h1>
       </div>
     </div>
   );
