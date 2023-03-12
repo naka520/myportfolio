@@ -101,7 +101,9 @@ function Page() {
                   <li className="mt-1 ml-2 text-xl">
                     <p className="italic">
                       Deploy（Azure）▶
-                      <a href="https://twitter.com/yashiki0520">Click Me!</a>
+                      <a href="https://ambitious-plant-0c5e40c00.2.azurestaticapps.net/">
+                        Click Me!
+                      </a>
                     </p>
                   </li>
                 </ul>
