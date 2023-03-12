@@ -33,7 +33,7 @@ function Page() {
                 <li className="mt-1 ml-2">
                   <p className="italic">
                     SelfIntoroduce（note） ▶
-                    <a href="https://note.com/preview/nf358da162a6e?prev_access_key=4f649ed3ba646e564c9f0a26ef5c68fd">
+                    <a href="https://note.com/kaedenakayashiki/n/nf358da162a6e">
                       Click Me!
                     </a>
                   </p>
