@@ -9,6 +9,7 @@ import Supportfolio from "./Supportfolio.png";
 import Usako from "./usako.png";
 import AlienBusters from "./AlienBusters.png";
 import enikki from "./enikki.png";
+import Passion from "./PassionPulse.png";
 
 function Page() {
   return (
@@ -68,6 +69,54 @@ function Page() {
         </h1>
       </div>
       <div className="mt-6">
+        <div className="prof">
+          <ul className="profile drop-shadow-md">
+            <li className="border-2 h-4/5 w-4/5 rounded-tl-lg rounded-tr-lg rounded-br-lg rounded-bl-lg bg-zinc-100">
+              <Stack>
+                <ul className="mt-2  text-left ">
+                  <li className="mt-1 ml-2 text-xl">
+                    <p className="italic">ProductName : PassionPulse</p>
+                  </li>
+                  <li className="mt-1 ml-2">
+                    <p>
+                      ２０２３年3月中旬にハックツハッカソン「アロカップ」にて作成しました。
+                    </p>
+                    <p>
+                      自分の趣味や推しの布教専用SNSです！カード形式でおしゃれに表示出来ます。
+                    </p>
+                    <p>
+                      私はログインページ・マイページのフロント側のロジックの実装・フロントのデザインの実装をメインに担当しました。
+                    </p>
+                    <p>詳しくは以下Topazにて！</p>
+                  </li>
+                  <li className="mt-4 ml-2 text-xl">
+                    <p className="italic">
+                      GitHub ▶
+                      <a href="https://github.com/Mcpu3/honnaka_frontend/tree/main/hukyousns">
+                        Click Me!
+                      </a>
+                    </p>
+                  </li>
+                  <li className="mt-1 ml-2 text-xl">
+                    <li className="mt-1 ml-2 text-xl">
+                      <p className="italic">
+                        Topaz▶
+                        <a href="https://topaz.dev/projects/ee78264ae054fae4626c">
+                          Click Me!
+                        </a>
+                      </p>
+                    </li>
+                  </li>
+                </ul>
+              </Stack>
+            </li>
+            <li className="border-2 rounded-tl-lg rounded-tr-lg rounded-br-lg rounded-bl-lg">
+              <img src={Passion}></img>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div className="mt-8">
         <div className="prof">
           <ul className="profile drop-shadow-md">
             <li className="border-2 rounded-tl-lg rounded-tr-lg rounded-br-lg rounded-bl-lg">
