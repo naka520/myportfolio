@@ -4,7 +4,7 @@
 
 ## 使用技術
 
-フレームワークはReactで言語はJavaSript,デプロイはVercelにて行っています
+ライブラリはReactで言語はJavaSript,デプロイはVercelにて行っています
 
 ### デプロイ先
 https://myportfolio-ruby-six.vercel.app/
