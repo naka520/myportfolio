@@ -10,6 +10,7 @@ import Usako from "./usako.png";
 import AlienBusters from "./AlienBusters.png";
 import enikki from "./enikki.png";
 import Passion from "./PassionPulse.png";
+import itigyoudiary from "./itigyoudiary.png";
 
 function Page() {
   return (
@@ -67,6 +68,44 @@ function Page() {
         <h1 className="mt-4 bg-stone-100 text-2xl italic rounded-tl-lg rounded-tr-lg rounded-br-lg rounded-bl-lg drop-shadow-md">
           My product
         </h1>
+      </div>
+      <div className="mt-8">
+        <div className="prof">
+          <ul className="profile drop-shadow-md">
+            <li className="border-2 rounded-tl-lg rounded-tr-lg rounded-br-lg rounded-bl-lg">
+              <img src={itigyoudiary}></img>
+            </li>
+            <li className="border-2 h-4/5 w-4/5 rounded-tl-lg rounded-tr-lg rounded-br-lg rounded-bl-lg bg-zinc-100">
+              <Stack>
+                <ul className="mt-2  text-left ">
+                  <li className="mt-1 ml-2 text-xl">
+                    <p className="italic">ProductName : 一行日記</p>
+                  </li>
+                  <li className="mt-1 ml-2">
+                    <p>
+                      自分でTSの復習とFastAPIでのバックエンド実装の勉強用に作成しました。
+                    </p>
+                    <p>
+                      後ろのFastAPIは未実装ですので現在はlocalstorageで動いています。
+                    </p>
+                  </li>
+                  <li className="mt-4 ml-2 text-xl">
+                    <p className="italic">
+                      GitHub ▶
+                      <a href="https://github.com/naka520/mynikki">Click Me!</a>
+                    </p>
+                  </li>
+                  <li className="mt-1 ml-2 text-xl">
+                    <p className="italic">
+                      Deploy（Vercel）▶
+                      <a href="https://mynikki.vercel.app/">Click Me!</a>
+                    </p>
+                  </li>
+                </ul>
+              </Stack>
+            </li>
+          </ul>
+        </div>
       </div>
       <div className="mt-6">
         <div className="prof">
